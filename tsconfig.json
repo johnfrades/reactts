@@ -1,0 +1,27 @@
+{
+	"compilerOptions": {
+		"outDir": "./dist/",
+		"sourceMap": true,
+		"noImplicitAny": false,
+		"module": "es6",
+		"target": "es6",
+		"jsx": "preserve",
+		"allowSyntheticDefaultImports": true,
+		"baseUrl": "src",
+		"strict": true,
+		"moduleResolution": "node",
+		"forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+		"noUnusedLocals": true
+	},
+	"include": [
+		"./src/**/*"
+	],
+	"exclude": [
+    "node_modules" // don't run on any code in the node_modules directory
+  ]
+
+}
